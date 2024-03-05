@@ -127,7 +127,7 @@ h4 {
 button.button {
     position: absolute;
     top: 25%;
-    left: 44%;
+    left: 47%;
     background-color: var(--col-pri);
     color: white;
     border-radius: 0px;
@@ -141,7 +141,6 @@ button.button:hover {
 @media screen and (max-width: 992px ) {
     .divside {
             width: 100%;
-            
         }
 }
 img.trees2 {
