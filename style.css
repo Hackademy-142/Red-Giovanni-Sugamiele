@@ -28,6 +28,11 @@ body {
 .logo {
     width: 100px;
 }
+@media screen and (max-width: 576px) {
+    .navlink {
+            font-size: 2vw;
+        }
+} 
 a.unlink {
     color: inherit;
     text-decoration: none;
@@ -78,19 +83,21 @@ a.unlink:hover {
     position: relative;
     padding: 5px;
 }
-.quote1 {
+.launch:before {
     color: var(--col-pri);
-    transform: scale(0.3);
+    content: open-quote;
     position: absolute;
-    top: -40px;
-    left: -60px;
+    font-size: 7vw;
+    top: -20px;
+    left: -5px;
 }
-.quote2 {
+.launch:after {
     color: var(--col-pri);
-    transform: scale(0.3);
+    content: close-quote;
     position: absolute;
-    bottom: -40px;
-    right: -55px;
+    font-size: 7vw;
+
+    
 }
 div.wrapper {
     display: flex;
@@ -149,8 +156,6 @@ img.trees2 {
     position: absolute;
     right: 0px;
     bottom: 0px;
-    /* width: 100%; */
-    right: 0px;
 }
 h5, h6{
     color: var(--col-pri);
@@ -176,7 +181,6 @@ i {
     color: var(--col-pri);
     margin: 10px;
 }
-
 .redtrees  {
     width: 100%;
 }
